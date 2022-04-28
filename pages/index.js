@@ -35,39 +35,39 @@ export default function Home() {
               </a>
             </ul>
          </div>
-         <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">4</h3>
-                        <p class="profile__info-description">
+         <div className="profile__info grid">
+                    <div className="profile__info-group">
+                        <h3 className="profile__info-number">4</h3>
+                        <p className="profile__info-description">
                             Years of <br/> work
                         </p>
                     </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">+102</h3>
-                        <p class="profile__info-description">
+                    <div className="profile__info-group">
+                        <h3 className="profile__info-number">+102</h3>
+                        <p className="profile__info-description">
                             Completed <br/> projects
                         </p>
                     </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">87</h3>
-                        <p class="profile__info-description">Satisfied <br/> customers</p>
+                    <div className="profile__info-group">
+                        <h3 className="profile__info-number">87</h3>
+                        <p className="profile__info-description">Satisfied <br/> customers</p>
                     </div>
                 </div>
 
-                <div class="profile__buttons">
+                <div className="profile__buttons">
                 <a href="https://drive.google.com/file/d/1EKmXJjLgggzkaX6Wbzofo65zPPKeaS_O/view?usp=sharing" className='button'>Download CV <DownloadIcon/> </a>
                     <div class="profile__buttons-small">
-                        <a href="https://api.whatsapp.com/send?phone=5511977194234&text=Hey,%20I%20want%20to%20talk%20with%20you%20abou%20a%20developer%20service%20" target="_blank" class="button button__small button__gray">
+                        <a href="https://api.whatsapp.com/send?phone=5511977194234&text=Hey,%20I%20want%20to%20talk%20with%20you%20abou%20a%20developer%20service%20" target="_blank" className="button button__small button__gray">
                             <WhatsAppIcon/>
                         </a>
-                        <a href="https://tttttt.me/lucasdcoutinho" target="_blank" class="button button__small button__gray">
+                        <a href="https://tttttt.me/lucasdcoutinho" target="_blank" className="button button__small button__gray">
                             <TelegramIcon/>
                         </a>
                     </div>
                 </div>
                   <Pages/>
-        <footer class="footer container">
-            <span class="footer__copy">
+        <footer className="footer container">
+            <span className="footer__copy">
                 &#169; Coutinho's Solutions. All rigths reserved
             </span>
         </footer>
